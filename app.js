@@ -23,7 +23,6 @@ function handleSubmit(event) {
     }
 
     newData.push(obj)
-    console.log("🚀 ~ file: app.js ~ line 18 ~ handleSubmit ~ allFood", newData)
     const allFoodJSON = JSON.stringify(newData);
 
     localStorage.setItem("allFood", allFoodJSON);
